@@ -59,6 +59,8 @@ wget
 @Core
 epel-release
 puppet
+net-tools
+facter
 <% if @host.params['enable-puppetlabs-repo'] && @host.params['enable-puppetlabs-repo'] == 'true' -%>
 puppetlabs-release
 <% end -%>

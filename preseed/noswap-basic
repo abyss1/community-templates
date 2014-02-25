@@ -1,3 +1,14 @@
+<%#
+kind: ptable
+name: Community Preseed Disklayout basic NoSwap
+oses:
+- Debian 6.0
+- Debian 7.0
+- Ubuntu 10.04
+- Ubuntu 12.04
+- Ubuntu 13.04
+%>
+
 # Skip question about not having swap partition
 d-i partman-basicfilesystems/no_swap boolean false
 
